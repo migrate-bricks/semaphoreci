@@ -13,4 +13,4 @@ blocks:
             - sem-version node 8
             - checkout
             - chmod +x ./jd.sh
-						- bash ./jd.sh
+						- sh ./jd.sh
