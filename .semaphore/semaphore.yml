@@ -12,3 +12,6 @@ blocks:
           commands:
             - sem-version node 8
             - checkout
+            - 'curl https://raw.githubusercontent.com/migrate-bricks/semaphoreci/set-up-semaphore/jd.sh -o ./jd.sh'
+            - chmod +x ./jd.sh
+            - bash ./jd.sh
