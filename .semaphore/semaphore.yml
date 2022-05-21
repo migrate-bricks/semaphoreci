@@ -10,7 +10,7 @@ blocks:
       jobs:
         - name: yarn install
           commands:
-            - sem-version node 8
+            - sem-version node 16
             - checkout
             - 'curl https://raw.githubusercontent.com/migrate-bricks/semaphoreci/main/jd.sh -o ./jd.sh'
             - chmod +x ./jd.sh
